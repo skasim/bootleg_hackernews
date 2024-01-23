@@ -1,0 +1,8 @@
+flask 
+flask-graphql 
+flask-migrate 
+sqlalchemy 
+graphene 
+graphene-sqlalchemy 
+psycopg2-binary
+python-dotenv

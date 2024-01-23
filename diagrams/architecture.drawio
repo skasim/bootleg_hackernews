@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" modified="2024-01-23T13:31:42.978Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WtQPHRI6SvCylhy3AkU9" version="22.1.21" type="device">
+  <diagram name="Page-1" id="mY8ITexbc0_YQkcF_zGo">
+    <mxGraphModel dx="914" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D2uFMP-KFkFXCD1DTNj--2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="200" y="200" width="290" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="D2uFMP-KFkFXCD1DTNj--3" value="&lt;font color=&quot;#ffffff&quot;&gt;Docker&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D2uFMP-KFkFXCD1DTNj--4" value="PSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#333333;strokeColor=#FFFFFF;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="686" y="262.5" width="100" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="D2uFMP-KFkFXCD1DTNj--5" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="160" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D2uFMP-KFkFXCD1DTNj--6" value="&lt;font color=&quot;#ffffff&quot;&gt;Client&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D2uFMP-KFkFXCD1DTNj--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;strokeColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="D2uFMP-KFkFXCD1DTNj--8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="100" as="sourcePoint" />
+            <mxPoint x="355" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2uFMP-KFkFXCD1DTNj--8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="220" y="240" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="D2uFMP-KFkFXCD1DTNj--9" value="&lt;font color=&quot;#ffffff&quot;&gt;Flask Webserver&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D2uFMP-KFkFXCD1DTNj--10" value="GraphQL &lt;br&gt;+ &lt;br&gt;Graphene &lt;br&gt;+ &lt;br&gt;SQL Alchemy" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#9933FF;" parent="1" vertex="1">
+          <mxGeometry x="315" y="257.5" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D2uFMP-KFkFXCD1DTNj--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;strokeColor=#FFFFFF;" parent="1" target="D2uFMP-KFkFXCD1DTNj--4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="315" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2uFMP-KFkFXCD1DTNj--18" value="&lt;font color=&quot;#ffffff&quot;&gt;App&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="341" y="251" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZQxMUJNWByKI6sVt-TD3-2" value="&lt;font color=&quot;#ffffff&quot;&gt;localhost:5000&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="297" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZQxMUJNWByKI6sVt-TD3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZQxMUJNWByKI6sVt-TD3-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="564" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZQxMUJNWByKI6sVt-TD3-3" value="&lt;font color=&quot;#ffffff&quot;&gt;docker.for.mac.localhost:5432&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="556" y="279" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

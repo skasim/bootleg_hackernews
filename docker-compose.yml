@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+    hackernewsapp:
+        build: .
+        container_name: "hackernews"
+        environment:
+          - PYTHONPATH=/code
+        volumes:
+            - ./:/code
+        ports:
+            - "5000:5000"
+            - "5432:5432"
+        networks:
+            - hackernewsnet
+
+networks:
+    hackernewsnet:

@@ -1,0 +1,73 @@
+# Create User
+# mutation {
+#   createUser(
+#     username:"zahra",
+#     email:"zahra@mail.com"){
+#     user{
+#       username
+#       email
+#       userId
+#       id
+#     }
+#   }
+# }
+
+# Create Link
+# mutation {
+#   createLink(
+#     url:"https://www.smithsonianmag.com/smart-news/",
+#     title:"Roman Docahedron",
+#   	userId: "f6b2581c-f5f8-4595-9d00-699af0cb406b"){
+#     link{
+#       url
+#       upvotes
+#       linkId
+#       creator {
+#         username
+#       }
+#     }
+#   }
+# }
+
+# Upvote some links
+# mutation {
+#   addUpvote(linkId: "0f9f7bd4-6e2f-4743-ad81-2e0c8371b037") {
+#     link {
+#       url
+#       upvotes
+#       linkId
+#       userId
+#     }
+#   }
+# }
+
+# Query Links
+# query {
+#   allLinks {
+#     edges {
+#       node {
+#         url
+#         userId
+#         upvotes
+#         creator {
+#           userId
+#           username
+#           email
+#         }
+#       }
+#     }
+#   } 
+# }
+
+# Query Users
+# query {
+#   allUsers{
+#     edges {
+#       node {
+#         username
+#         email
+#         userId
+#       }
+#     }
+#   }
+# }
